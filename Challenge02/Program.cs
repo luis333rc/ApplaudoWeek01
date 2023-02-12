@@ -1,11 +1,13 @@
 ﻿namespace Challenge02
 {
-    internal class Program
+    internal partial class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //Console.WriteLine(Parantheses("()"));
+            //Console.WriteLine(Parantheses(")(()))"));
+            //Console.WriteLine(Parantheses("("));
+            Console.WriteLine(Parantheses.Check("(())((()())())"));
         }
-
     }
 }
